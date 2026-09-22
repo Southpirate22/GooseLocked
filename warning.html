@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Goose Locked - Blocked Page</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    .card {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 { color: #ff3d00; margin-top: 0; }
+    p { color: #aaa; font-size: 14px; }
+    #blockedUrl { color: #00e676; font-weight: bold; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Goose Locked 🪿</h1>
+    <p>This site has been blocked by your privacy settings:</p>
+    <p id="blockedUrl">Loading...</p>
+  </div>
+
+  <script src="warning.js"></script>
+</body>
+</html>
